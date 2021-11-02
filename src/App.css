@@ -1,0 +1,27 @@
+
+body
+{
+ background-color:#323437;
+ color:goldenrod;
+
+}
+#text1{
+   
+  
+    color:white;
+    height:40px;
+}
+.btn
+{
+    color:#626468;
+}
+#centre
+{
+margin:170px;
+
+}
+.extra
+{
+    text-align: center;
+    font-size:larger;
+}

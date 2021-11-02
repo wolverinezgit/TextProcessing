@@ -2,6 +2,7 @@
   "name": "helo",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://wolverinezgit.github.io/TextProcessing/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@mui/material": "^5.0.6",
@@ -17,7 +18,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
